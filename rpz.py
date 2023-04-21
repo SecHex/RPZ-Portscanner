@@ -82,7 +82,7 @@ class PortScanner:
 
 
 def main():
-    print("RPZ - Portscanner")
+    print(RED + "RPZ - Portscanner" + END)
     target = input("IP address or hostname: ")
     thread = int(input("threads to use (default is 5): ") or "5")
     port_range = input("Please enter the range of ports to scan (default is 1-65535): ") or "1-65535"
