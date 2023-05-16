@@ -6,6 +6,6 @@
 # Installation
 
 $ apt update && apt upgrade                                                
-$ git clone https://github.com/Rapunzel-ware/RPZ-Portscanner.git                                                
+$ git clone https://github.com/SecHex/RPZ-Portscanner.git                                                
 $ cd RPZ-Portscanner                                                   
 $ python3 rpz.py                                                
