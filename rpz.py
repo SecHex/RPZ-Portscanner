@@ -46,7 +46,7 @@ class PortScanner:
 
     def run(self):
         print(RED + """
-        --~~Rapunzel-ware~~ ->	https://github.com/SecHex
+        --~~SecHex~~ ->	https://github.com/SecHex
         """ + END)
 
         print(GREEN + "[+] Target: " + END + self.target)
@@ -77,7 +77,7 @@ class PortScanner:
 
 
 def main():
-    print(RED + "RPZ - Portscanner" + END)
+    print(RED + "SecHex - Portscanner" + END)
     target = input("IP address or hostname: ")
     thread = int(input("threads to use (default is 5): ") or "5")
     port_range = input("Please enter the range of ports to scan (default is 1-65535): ") or "1-65535"
