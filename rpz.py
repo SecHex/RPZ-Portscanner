@@ -51,7 +51,7 @@ class PortScanner:
           / /_/ / /_/ /  / / _____| | /| / / /| | / /_/ / __/   
          / _, _/ ____/  / /_/_____/ |/ |/ / ___ |/ _, _/ /___   
         /_/ |_/_/      /____/     |__/|__/_/  |_/_/ |_/_____/   
-        --~~Rapunzel-ware~~ ->	https://github.com/Rapunzel-ware
+        --~~Rapunzel-ware~~ ->	https://github.com/SecHex
         """ + END)
 
         print(GREEN + "[+] Target: " + END + self.target)
